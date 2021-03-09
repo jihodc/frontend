@@ -1,0 +1,86 @@
+#weather, #to-do-list {
+	border: 1px black solid;
+	background-color: #fcfcf7;
+	box-shadow: 3px 3px 5px #00000040; 
+}
+
+#weather {
+	width: 95%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#to-do-list {
+	max-width: 600px;
+	min-width: 400px;
+	margin: auto;
+	margin-top: 100px;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+h1 {
+	margin-left: 20px;
+	font-family: 'Righteous', cursive;
+}
+
+body, div {
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+input {
+	display: block;
+	width: 200px;
+	border: black solid 1px;
+	margin-left: 20px;
+}
+
+ul {
+	/*width: fit-content;*/
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 20px;
+	/*border: red solid 1px;*/
+}
+
+ul li {
+	border: black solid 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width: 95%;
+	margin-bottom: 5px;
+}
+
+ul li:hover {
+	background-color: #dbdbdb;
+	transition-duration: 0.8s;
+	transition-timing-function: ease;
+}
+
+.removed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.box {
+	/*border: red solid 1px;*/
+}
+
+.arrow {
+	position: absolute;
+	top: 35px;
+	right: 32px;
+
+}
+
+body {
+	background-color: #ffc430;
+}
